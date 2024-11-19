@@ -10,18 +10,18 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkItem href="tel:314-343-3432">610-698-7941</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
+            alexanderbarlow7@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>Alexander Barlow, Leader and Innovator</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://google.com">
