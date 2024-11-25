@@ -7,6 +7,7 @@ import Timeline from '../components/TimeLine/TimeLine';
 import WorkExperience from '../components/WorkExperience/WorkExperience';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import Slider from '../components/Carousel/Carousel'
 const Home = () => {
   return (
     <Layout>
@@ -17,6 +18,7 @@ const Home = () => {
       <WorkExperience />
       <Projects />
       <Technologies />
+      <Slider />
       <Timeline />
       <Acomplishments />
     </Layout>
