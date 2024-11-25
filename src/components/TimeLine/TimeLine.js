@@ -44,6 +44,7 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
          Hi my name is Alexander. I am currently a student at Arizona State 
