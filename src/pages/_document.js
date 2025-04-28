@@ -29,9 +29,25 @@ export default class MyDocument extends Document {
   }
   render() {
     return (
-      <Html lang='en-GB'>
+      <Html lang="en-GB">
         <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+          />
+          <link rel="manifest" href="/manifest.json" />
+          <meta name="theme-color" content="#111111" />
+          <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="mobile-web-app-capable" content="yes" />
+          <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+          />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+          />
         </Head>
         <body>
           <Main />
