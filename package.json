@@ -2,12 +2,12 @@
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
-  "node": "16",
+  "node": "18",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start"
-  },
+  "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+  "build": "NODE_OPTIONS=--openssl-legacy-provider next build && next export",
+  "start": "NODE_OPTIONS=--openssl-legacy-provider next start"
+},
   "dependencies": {
     "next": "10.2.3",
     "next-pwa": "^5.6.0",
